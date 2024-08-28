@@ -6,6 +6,7 @@ html, body {
 
 body {
   font-family: Roboto, sans-serif;
+  font-size: large;
   margin: 0;
   background: #aaa;
   color: #333;
@@ -15,11 +16,29 @@ body {
   justify-content: center;
 }
 
+h2 {
+  margin: 4px 0px 0px 0px;
+}
+
+.header {
+  margin: 0px 0px 8px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 10px;
+  display: flex;
+  flex: none;
+  align-items: start;
+  justify-content: center;
 }
 
 .icon {
@@ -31,6 +50,7 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex: none;
   align-items: center;
   justify-content: center;
 }
@@ -44,16 +64,25 @@ body {
   height: 24px;
   width: 24px;
   display: flex;
+  flex: none;
   align-items: center;
   justify-content: center;
   border: 1px solid #eee;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  margin: 0px 0px 0px 16px;
 }
 
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 12px;
 }
 
 button.continue {
